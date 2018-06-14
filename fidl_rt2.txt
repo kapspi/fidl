@@ -1,0 +1,33 @@
+#Copyright 1/18/18 Washington University.  All Rights Reserved.
+#fidl_rt2.txt  $Revision: 1.1 $
+
+setenv FIDL_MASK_FILE_111 ${LIB_PATH}/glm_atlas_mask_111.4dfp.img
+setenv FIDL_MASK_FILE_111ASIGMA ${LIB_PATH}/averaged_Asigma_msk.4dfp.img
+setenv FIDL_MASK_FILE_222 ${LIB_PATH}/glm_atlas_mask_222.4dfp.img
+setenv FIDL_MASK_FILE_333 ${LIB_PATH}/glm_atlas_mask_333.4dfp.img
+setenv FIDL_ATLAS_FILE_111 ${LIB_PATH}/711-2B_111.4dfp.img
+setenv FIDL_ATLAS_FILE_222 ${LIB_PATH}/711-2B_b9.4dfp.img
+setenv FIDL_ATLAS_FILE_333 ${LIB_PATH}/711-2B_b9_333.4dfp.img
+setenv FIDL_ATLAS_711_2C_111 ${LIB_PATH}/711-2C_111.4dfp.img
+setenv FIDL_ATLAS_711_2C_222 ${LIB_PATH}/young6+6_atrophy_avg_222.4dfp.img
+setenv FIDL_ATLAS_711_2O_111 ${LIB_PATH}/711-2O_111.4dfp.img
+setenv FIDL_ATLAS_711_2O_222 ${LIB_PATH}/atrophy_avg_222.4dfp.img
+setenv FIDL_ATLAS_711_2Y_111 ${LIB_PATH}/young6+6_avg_111.4dfp.img
+setenv FIDL_ATLAS_711_2Y_222 ${LIB_PATH}/young6+6_avg_222.4dfp.img
+setenv FIDL_ATLAS_711_2K_111 ${LIB_PATH}/789yo_atlas_111.4dfp.img
+setenv FIDL_COLIN_222 ${LIB_PATH}/colin_avg20_Toga_LR_full_sMRI_xflip_on_711-2B_222.4dfp.img
+setenv PIXMAP_PATH ${LIB_PATH}/pixmaps
+setenv FIDL_SMALL_WM ${LIB_PATH}/small_WM.4dfp.img
+setenv FIDL_LAT_VENT ${LIB_PATH}/711-2B_lat_vent_333.4dfp.img
+setenv FIDL_TRIO_Y_NDC_111 ${LIB_PATH}/TRIO_Y_NDC.4dfp.img
+setenv FIDL_TRIO_Y_NDC_222 ${LIB_PATH}/TRIO_Y_NDC_222.4dfp.img
+setenv FIDL_TRIO_Y_NDC_333 ${LIB_PATH}/TRIO_Y_NDC_333.4dfp.img
+setenv FIDL_TRIO_KY_NDC_111 ${LIB_PATH}/TRIO_KY_NDC_111.4dfp.img
+setenv FIDL_TRIO_KY_NDC_222 ${LIB_PATH}/TRIO_KY_NDC_222.4dfp.img
+setenv FIDL_TRIO_KY_NDC_333 ${LIB_PATH}/TRIO_KY_NDC_333.4dfp.img
+setenv FIDL_MASK_MNI222 ${LIB_PATH}/MNI_T1_2mm_dilbrainmask.4dfp.img
+setenv FIDL_T1_MNI222 ${LIB_PATH}/MNI_T1_2mm.4dfp.4dfp.img
+
+#START180118
+setenv FIDL_mni_icbm152_t1_tal_nlin_sym_09a ${LIB_PATH}/mni_icbm152_nlin_sym_09a/mni_icbm152_t1_tal_nlin_sym_09a.nii
+setenv FIDL_mni_icbm152_t1_tal_nlin_sym_09a_mask ${LIB_PATH}/mni_icbm152_nlin_sym_09a/mni_icbm152_t1_tal_nlin_sym_09a_mask.nii
