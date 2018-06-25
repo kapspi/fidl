@@ -24,7 +24,9 @@ echo setenv IDL_DIR $IDL_DIR >> $FILENAME
 
 #cat $FIDL_RT_PATH/fidl_rt.txt >> $FILENAME 
 #START180118
-tail -n +3 $FIDL_RT_PATH/fidl_rt.txt >> $FILENAME
+#tail -n +3 $FIDL_RT_PATH/fidl_rt.txt >> $FILENAME  This is for /usr/xpg4/bin/tail
+#START180625
+tail +3l $FIDL_RT_PATH/fidl_rt.txt >> $FILENAME
 
 
 #echo 'setenv FIDL_MASK_FILE_111 ' ${LIB_PATH}'/glm_atlas_mask_111.4dfp.img' >> $FILENAME 
@@ -54,7 +56,9 @@ tail -n +3 $FIDL_RT_PATH/fidl_rt.txt >> $FILENAME
 #echo 'setenv FIDL_MASK_MNI222 ' ${LIB_PATH}'/MNI_T1_2mm_dilbrainmask.4dfp.img' >> $FILENAME 
 #echo 'setenv FIDL_T1_MNI222 ' ${LIB_PATH}'/MNI_T1_2mm.4dfp.4dfp.img' >> $FILENAME 
 #START180118
-tail -n +3 $FIDL_RT_PATH/fidl_rt2.txt >> $FILENAME 
+#tail -n +3 $FIDL_RT_PATH/fidl_rt2.txt >> $FILENAME  This is for /usr/xpg4/bin/tail
+#START180625
+tail +3l $FIDL_RT_PATH/fidl_rt2.txt >> $FILENAME 
 
 
 
